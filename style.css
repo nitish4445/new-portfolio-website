@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #330000;
+    color: white;
+}
+#ul{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+    list-style: none;
+    cursor: pointer;
+}
